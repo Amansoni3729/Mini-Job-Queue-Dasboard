@@ -38,7 +38,7 @@ job-queue-dashboard/
 │   ├── tsconfig.json
 │   ├── vite.config.ts
 │   ├── vercel.json
-│   
+│
 │
 ├── backend/
 │   ├── src/
@@ -65,7 +65,7 @@ job-queue-dashboard/
 │   ├── package.json
 │   ├── tsconfig.json
 │   ├── nest-cli.json
-│   └── 
+│
 │
 ├── render.yaml                              # Render deployment blueprint
 └── README.md
@@ -84,7 +84,7 @@ job-queue-dashboard/
 ```bash
 cd backend
 npm install
-cp .env.example .env
+# Create .env with PORT, CORS_ORIGIN, and DATABASE_URL as needed.
 npm run start:dev
 ```
 
@@ -102,7 +102,7 @@ npm run test:e2e  # Integration tests (10 concurrent PATCH requests race conditi
 ```bash
 cd frontend
 npm install
-cp .env.example .env
+# Create .env with VITE_API_URL=http://localhost:3000
 npm run dev
 ```
 
