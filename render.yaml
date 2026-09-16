@@ -13,7 +13,7 @@ services:
       - key: PORT
         value: 10000
       - key: CORS_ORIGIN
-        value: '*'
+        value: https://mini-job-queue-dasboard.vercel.app,http://localhost:5173,http://127.0.0.1:5173
       - key: DATABASE_URL
         fromDatabase:
           name: job-queue-db
