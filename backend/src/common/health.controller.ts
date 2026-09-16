@@ -1,8 +1,17 @@
 import { Controller, Get } from '@nestjs/common';
 
-@Controller('health')
+@Controller()
 export class HealthController {
   @Get()
+  getRoot() {
+    return {
+      name: 'Mini Job Queue API',
+      status: 'ok',
+      endpoints: ['/health', '/jobs'],
+    };
+  }
+
+  @Get('health')
   getHealth() {
     return {
       status: 'ok',
