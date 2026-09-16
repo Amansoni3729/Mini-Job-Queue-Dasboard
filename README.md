@@ -38,7 +38,7 @@ job-queue-dashboard/
 │   ├── tsconfig.json
 │   ├── vite.config.ts
 │   ├── vercel.json
-│   └── .env.example
+│   
 │
 ├── backend/
 │   ├── src/
@@ -65,7 +65,7 @@ job-queue-dashboard/
 │   ├── package.json
 │   ├── tsconfig.json
 │   ├── nest-cli.json
-│   └── .env.example
+│   └── 
 │
 ├── render.yaml                              # Render deployment blueprint
 └── README.md
